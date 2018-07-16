@@ -1,0 +1,103 @@
+body{
+    margin-top: 20px;
+    background: #182E80;
+    background-image:url("./falcon-heavy.jpeg");
+    background-size: cover;
+    
+}
+
+header {
+    position:static;
+    width: 100%;
+    height: 100px;
+    border: pink;
+}
+.menuBar li {
+    display: inline-block;
+    float: right;
+}
+.menuBar a {
+    background: linear-gradient(#742be9, #0c2233);
+    border:1px solid rgba(.3, .3, .3, .3);
+    color: #fff;
+    padding: 12px 15px;
+    text-decoration:none;
+}
+.menuBar a:hover {
+    background: #aa99f5;
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3)
+}
+.mTitleBlock {
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    
+}
+.mainTitleBlockBio {
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+}
+.mainTitle {
+    border: solid;
+    border-color: black;
+    width: 500px;
+    text-align: center;
+    background-color: #0c2233;
+    margin: auto;
+    color:#3992d6;
+}
+.mainTitleBio {
+    border: solid;
+    border-color: black;
+    width: 500px;
+    text-align: center;
+    background-color: #0c2233;
+    margin: auto;
+    color:#3992d6;
+}
+.middle{
+    height:130px;
+    margin: auto;
+}
+.middleBio {
+    height:130px;
+    margin: auto;
+}
+.overview {
+    border: solid;
+    border-color: black;
+    width: 500px;
+    height: 128px;
+    text-align: left;
+    background-color: #0c2233;
+    color:#3992d6;
+}
+#overviewBio {
+    border: solid;
+    border-color: black;
+    width: 700px;
+    height: 182px;
+    text-align: left;
+    background-color: #0c2233;
+    color:#3992d6;
+}
+.gif{
+    width: 500px;
+    object-position: center;
+
+}
+#rocketGif{
+    width: 500px;
+    object-position: center;
+
+}
+.blankSpace{
+    height: 250px;
+}
+.blankSpaceBio{
+    height: 350px;
+}
+footer {
+    color: white;
+}
